@@ -102,6 +102,14 @@ nav ul li a:hover {
 	padding: 0px;
 	margin: 20px;
 	border-bottom: 3px solid #41578e;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.project .box:hover {
+	outline: none;
+    border: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
 }
 
 .project .projects-name h1 {
@@ -207,6 +215,15 @@ nav ul li a:hover {
 	align-items: center;
 	width: 200px;
 	height: 445px;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.members .emma:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+    transform: scale(1.1);
 }
 
 .members .emma img {
@@ -246,6 +263,15 @@ nav ul li a:hover {
 	align-items: center;
 	width: 200px;
 	height: 445px;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.members .Stéphanie:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+    transform: scale(1.1);
 }
 
 .members .Stéphanie img {
@@ -284,6 +310,15 @@ nav ul li a:hover {
 	align-items: center;
 	width: 200px;
 	height: 445px;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.members .Jérome:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+    transform: scale(1.1);
 }
 
 .members .Jérome img {
@@ -321,6 +356,15 @@ nav ul li a:hover {
 	align-items: center;
 	width: 200px;
 	height: 445px;
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.members .Benjamin:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+    transform: scale(1.1);
 }
 
 .members .Benjamin img {
@@ -350,19 +394,106 @@ nav ul li a:hover {
 	background: #5369a1;
 }
 
+.chiffres {
+	text-align: center;
+	background: #242424;
+	height: 600px;
+	border-top: 3px solid #41578e;
+}
+
+.chiffres h1 {
+	color: #fff;
+}
+
+.chiffres .member {
+	background: #444444;
+	border-radius: 20px;
+	padding: 20px;
+	width: 250px;
+	margin-left: 804px;
+	margin-top: 50px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.chiffres .member:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+}
+
+.chiffres .command {
+	background: #444444;
+	border-radius: 20px;
+	padding: 20px;
+	width: 250px;
+	margin-left: 1150px;
+	margin-top: -147px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.chiffres .command:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+}
+
+.chiffres .thune {
+	background: #444444;
+	border-radius: 20px;
+	padding: 20px;
+	width: 250px;
+	margin-left: 450px;
+	margin-top: -147px;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.chiffres .thune:hover {
+	outline: none;
+    border-color: #59d8f9;
+    box-shadow: 0 0 10px #59d8f9;
+}
+
+.chiffres .hono {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.chiffres a {
+	color: #fff;
+	background: #41578e;
+	padding: 13px;
+	font-size: 18px;
+	transition: .3s;
+	text-align: center;
+	margin-left: auto;
+}
+
+.chiffers a:hover {
+	background: #5369a1;
+}
+
+.chiffres h2 {
+	color: #41578e;
+}
+
 .contact {
 	background: #242424;
 	padding: 20px;
-	border-radius: 15px;
-	width: 400px;
-	height: 500px;
-	margin-left: 650px;
+	width: 1000px;
+	height: 740px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
 }
 
 .contact h1 {
 	color: #fff;
 	text-align: center;
 	margin-top: 10px;
+	border-bottom: 2px solid #444444;
 }
 
 .contact input {
@@ -371,10 +502,29 @@ nav ul li a:hover {
 	color: #fff;
 	display: block;
 	padding: 10px;
-	border-radius: 10px;
 	font-size: 17px;
 	margin: 20px;
-	margin-left: 80px;
+	outline: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
+	border-bottom: 2px solid #41578e;
+}
+
+.contact textarea {
+	resize: none;
+	width: 700px;
+	height: 300px;
+	background: #444444;
+	border: none;
+	color: #fff;
+	margin: 20px;
+	padding: 10px;
+	border-bottom: 2px solid #41578e;
+	font-size: 19px;
+}
+
+.contact textarea:active {
 	outline: none;
 }
 
@@ -382,16 +532,13 @@ nav ul li a:hover {
 	width: 200px;
 	margin-top: 10px;
 	padding: 15px;
-	margin-left: 98px;
+	margin-left: auto;
 	cursor: pointer;
 	transition: .3s;
-}
-
-.contact .send:hover {
+	border: none;
 	background: #41578e;
 }
 
-@media screen and(max-width: 1281px) {
-	.header img {
-	}
+.contact .send:hover {
+	background: #444444;
 }
